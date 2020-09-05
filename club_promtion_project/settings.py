@@ -33,15 +33,11 @@ def get_secret(setting, secrets=secrets):
 
 SECRET_KEY = get_secret("SECRET_KEY")
 # SECURITY WARNING: keep the secret key used in production secret!
-<<<<<<< HEAD
-
-=======
->>>>>>> 0aedcf9b3a924c4abeddcbcbdea1e93d7188da76
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
